@@ -1,0 +1,49 @@
+ <!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>অ্যাকাউন্ট একটিভ করুন • ah100power</title>
+        <link rel="stylesheet" href="styles.css" />
+        </head>
+        <body data-page="activate">
+        <div class="container">
+          <nav class="top">
+              <div class="logo"><span>ah100</span>power</div>
+                  <a class="badge" href="index.html">হোম</a>
+                    </nav>
+
+                      <div class="card">
+                          <h2>আপনার অ্যাকাউন্ট <span class="badge">একটিভ</span> করুন</h2>
+                              <p class="note">শুধু <b>৳ <span id="act-amount"></span></b> দিয়ে একটিভ করুন। যে কোনো একটি পদ্ধতি বাছুন:</p>
+                                  <div class="row">
+                                        <button id="choose-bkash" class="btn full">বিকাশ</button>
+                                              <button id="choose-nagad" class="btn full">নগদ</button>
+                                                  </div>
+
+                                                      <div id="pay-card" class="card hidden" style="margin-top:16px">
+                                                            <div class="row">
+                                                                    <div>
+                                                                              <div class="note">নম্বরটি কপি করুন</div>
+                                                                                        <div class="copy" id="pay-number"></div>
+                                                                                                </div>
+                                                                                                        <div class="center"><button id="copy-num" class="btn">Copy</button></div>
+                                                                                                              </div>
+                                                                                                                    <hr>
+                                                                                                                          <input type="hidden" id="pay-method" />
+                                                                                                                                <div class="row">
+                                                                                                                                        <input class="input" id="sender" placeholder="যে নাম্বার থেকে পাঠিয়েছেন" />
+                                                                                                                                                <input class="input" id="trx" placeholder="ট্রানজেকশন আইডি" />
+                                                                                                                                                      </div>
+                                                                                                                                                            <button id="submit-activation" class="btn full" style="margin-top:12px">সাবমিট (পেন্ডিং হবে)</button>
+                                                                                                                                                                </div>
+
+                                                                                                                                                                    <hr>
+                                                                                                                                                                        <div class="note">বিকাশ নম্বর: <b id="bkashNum"></b> • নগদ নম্বর: <b id="nagadNum"></b></div>
+                                                                                                                                                                          </div>
+
+                                                                                                                                                                            <footer>© <span class="brand"></span></footer>
+                                                                                                                                                                            </div>
+                                                                                                                                                                            <script src="js/app.js"></script>
+                                                                                                                                                                            </body>
+                                                                                                                                                                            </html
